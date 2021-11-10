@@ -8,9 +8,9 @@
     <name>OSM Parquetizer</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <osmosis.version>0.48.2</osmosis.version>
-        <parquet.version>1.11.0</parquet.version>
-        <hadoop.version>3.3.0</hadoop.version>
+        <osmosis.version>0.48.3</osmosis.version>
+        <parquet.version>1.12.2</parquet.version>
+        <hadoop.version>3.3.1</hadoop.version>
         <encoding>UTF-8</encoding>
     </properties>
     <dependencies>
@@ -61,7 +61,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -78,7 +78,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>2.4.2</version>
+                <version>3.2.4</version>
                 <configuration>
                     <transformers>
                         <transformer
